@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>On your own</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div>
+      <header>
+        <h1>Rock Paper Scissors Game</h1>
+      </header>
+    </div>
+
+    <div class="scoreboard">
+      <div id="user_label" class="badge">user</div>
+      <div id="comp_label" class="badge">comp</div>
+      <span id="user_score">0</span> : <span id="comp_score">0</span>
+    </div>
+
+    <div id="results">
+      <p>You know the Rules. Let's play!</p>
+    </div>
+
+    <div class="choices">
+      <div class="choice" id="Rock">
+        <img src="./images/rock.svg" class="size" alt="rock" />
+      </div>
+      <div class="choice" id="Paper">
+        <img src="./images/paper.svg" class="size" alt="paper" />
+      </div>
+      <div class="choice" id="Scissors">
+        <img src="./images/scissors.svg" class="size" alt="scissors" />
+      </div>
+    </div>
+    <p id="intructions">Make your move</p>
+    <p class="badge" id="reset">Reset score</p>
+    <script src="./app.js"></script>
+  </body>
+</html>
